@@ -1,0 +1,39 @@
+
+profile kyos0109-rsyslog-distroless-apparmor-profile flags=(attach_disconnected,mediate_deleted) {
+
+  network,
+
+  /usr/sbin/rsyslogd rix,
+
+
+  /etc/localtime r,
+  /etc/nsswitch.conf r,
+  /etc/rsyslog.conf r,
+  /lib/x86_64-linux-gnu/ld-2.24.so r,
+  /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 r,
+  /lib/x86_64-linux-gnu/libc-2.24.so r,
+  /lib/x86_64-linux-gnu/libc.so.6 r,
+  /lib/x86_64-linux-gnu/libdl-2.24.so r,
+  /lib/x86_64-linux-gnu/libdl.so.2 r,
+  /lib/x86_64-linux-gnu/libnss_files-2.24.so r,
+  /lib/x86_64-linux-gnu/libnss_files.so.2 r,
+  /lib/x86_64-linux-gnu/libpthread-2.24.so r,
+  /lib/x86_64-linux-gnu/libpthread.so.0 r,
+  /lib/x86_64-linux-gnu/librt-2.24.so r,
+  /lib/x86_64-linux-gnu/librt.so.1 r,
+  /lib/x86_64-linux-gnu/libuuid.so.1 r,
+  /lib/x86_64-linux-gnu/libuuid.so.1.3.0 r,
+  /lib/x86_64-linux-gnu/libz.so.1 r,
+  /lib/x86_64-linux-gnu/libz.so.1.2.8 r,
+  /lib64/ld-linux-x86-64.so.2 r,
+  /usr/lib/x86_64-linux-gnu/libestr.so.0 r,
+  /usr/lib/x86_64-linux-gnu/libestr.so.0.0.0 r,
+  /usr/lib/x86_64-linux-gnu/libfastjson.so.4 r,
+  /usr/lib/x86_64-linux-gnu/libfastjson.so.4.0.0 r,
+  /usr/lib/x86_64-linux-gnu/liblogging-stdlog.so.0 r,
+  /usr/lib/x86_64-linux-gnu/liblogging-stdlog.so.0.0.0 r,
+  /usr/lib/x86_64-linux-gnu/rsyslog/imudp.so r,
+  /usr/lib/x86_64-linux-gnu/rsyslog/lmnet.so r,
+  /usr/share/zoneinfo/localtime r,
+
+}

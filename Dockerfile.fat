@@ -1,0 +1,7 @@
+# new image
+bazel build ...
+COPY dir:1dba7be171ee9594f00bb1801b13b1d287aa84a2357559acbe984bb83407fa99 in / 
+ VOLUME [/var/log]
+ EXPOSE 514 514/udp
+ ENTRYPOINT ["rsyslogd" "-n"]
+# end of image: kyos0109/rsyslog-distroless (id: sha256:8886b559440c6725b415cb43d516426249f8f12cdac35adbb1dc54082acbe37b tags: latest)
