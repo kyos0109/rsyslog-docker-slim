@@ -3,7 +3,7 @@
     "fan": {
       "monitor_pid": 1,
       "monitor_ppid": 0,
-      "event_count": 40,
+      "event_count": 37,
       "main_process": {
         "pid": 15,
         "name": "rsyslogd",
@@ -28,93 +28,93 @@
         "15": {
           "/etc/localtime": {
             "event_count": 3,
-            "first_eid": 36,
+            "first_eid": 33,
             "reads": 2
           },
           "/etc/nsswitch.conf": {
             "event_count": 2,
-            "first_eid": 28,
+            "first_eid": 25,
             "reads": 1
           },
           "/etc/rsyslog.conf": {
             "event_count": 2,
-            "first_eid": 32,
+            "first_eid": 29,
             "reads": 1
           },
           "/lib/x86_64-linux-gnu/ld-2.24.so": {
             "event_count": 3,
-            "first_eid": 5,
+            "first_eid": 3,
             "reads": 2
           },
           "/lib/x86_64-linux-gnu/libc-2.24.so": {
             "event_count": 2,
-            "first_eid": 24,
+            "first_eid": 22,
             "reads": 1
           },
           "/lib/x86_64-linux-gnu/libdl-2.24.so": {
             "event_count": 2,
-            "first_eid": 12,
+            "first_eid": 10,
             "reads": 1
           },
           "/lib/x86_64-linux-gnu/libnss_files-2.24.so": {
             "event_count": 2,
-            "first_eid": 30,
+            "first_eid": 27,
             "reads": 1
           },
           "/lib/x86_64-linux-gnu/libpthread-2.24.so": {
             "event_count": 2,
-            "first_eid": 10,
+            "first_eid": 8,
             "reads": 1
           },
           "/lib/x86_64-linux-gnu/librt-2.24.so": {
             "event_count": 2,
-            "first_eid": 14,
+            "first_eid": 12,
             "reads": 1
           },
           "/lib/x86_64-linux-gnu/libuuid.so.1.3.0": {
             "event_count": 2,
-            "first_eid": 20,
+            "first_eid": 18,
             "reads": 1
           },
           "/lib/x86_64-linux-gnu/libz.so.1.2.8": {
             "event_count": 2,
-            "first_eid": 8,
+            "first_eid": 6,
             "reads": 1
           },
           "/usr/lib/x86_64-linux-gnu/libestr.so.0.0.0": {
             "event_count": 2,
-            "first_eid": 16,
+            "first_eid": 14,
             "reads": 1
           },
           "/usr/lib/x86_64-linux-gnu/libfastjson.so.4.0.0": {
             "event_count": 2,
-            "first_eid": 18,
+            "first_eid": 16,
             "reads": 1
           },
           "/usr/lib/x86_64-linux-gnu/liblogging-stdlog.so.0.0.0": {
             "event_count": 2,
-            "first_eid": 22,
+            "first_eid": 20,
             "reads": 1
           },
           "/usr/lib/x86_64-linux-gnu/rsyslog/imudp.so": {
             "event_count": 2,
-            "first_eid": 34,
+            "first_eid": 31,
             "reads": 1
           },
           "/usr/lib/x86_64-linux-gnu/rsyslog/lmnet.so": {
-            "event_count": 2,
-            "first_eid": 26,
+            "event_count": 1,
+            "first_eid": 24,
             "reads": 1
           },
           "/usr/sbin/rsyslogd": {
-            "event_count": 4,
+            "event_count": 2,
             "first_eid": 1,
-            "reads": 3,
-            "execs": 4
+            "reads": 1,
+            "execs": 2
           },
           "/var/run/rsyslogd.pid.tmp": {
             "event_count": 2,
-            "first_eid": 39,
+            "first_eid": 36,
             "writes": 1
           }
         }
