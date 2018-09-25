@@ -4,4 +4,4 @@ COPY dir:1dba7be171ee9594f00bb1801b13b1d287aa84a2357559acbe984bb83407fa99 in /
  VOLUME [/var/log]
  EXPOSE 514 514/udp
  ENTRYPOINT ["rsyslogd" "-n"]
-# end of image: kyos0109/rsyslog-distroless (id: sha256:8886b559440c6725b415cb43d516426249f8f12cdac35adbb1dc54082acbe37b tags: latest)
+# end of image: kyos0109/rsyslog-distroless (id: sha256:1b3448d0854fa0ba561d251c7c9d378532507a841c8e72a332cb612eb4ca64e0 tags: latest)
